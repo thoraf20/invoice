@@ -1,7 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { ValidationPipe } from '@nestjs/common';
 import helmet from 'helmet';
-import dotenv from 'dotenv';
 import { AppModule } from './app.module';
 
 const corsOrigin = '*';
